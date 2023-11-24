@@ -2,7 +2,7 @@
 
 A protocol that can disguise your proxy traffic as regular TLS traffic:
 
-* Disguise your proxy server [as any TLS server](./Restls%3A%20A%20Perfect%20Impersonation%20of%20TLS.md), such as `microsoft.com`.
+* Disguise your proxy server [as any TLS server](./docs/a_perfect_impersonation_of_tls.en.md), such as `microsoft.com`.
 * Developed based on [utls](https://github.com/refraction-networking/utls), Disguise your [proxy client](https://github.com/3andne/Clash.Meta#restls) as a normal browser.
 * Use the `Restls-Script` protocol to conceal your proxy behavior and break characteristics such as "TLS in TLS".
 
@@ -10,7 +10,7 @@ A protocol that can disguise your proxy traffic as regular TLS traffic:
 
 一个可以把你的代理流量伪装成普通TLS流量的协议：
 
-* 把你的代理服务器[伪装成任何一个TLS服务器](./Restls%3A%20%E5%AF%B9TLS%E7%9A%84%E5%AE%8C%E7%BE%8E%E4%BC%AA%E8%A3%85.md)，例如`microsoft.com`。
+* 把你的代理服务器[伪装成任何一个TLS服务器](./docs/a_perfect_impersonation_of_tls.zh_CN.md)，例如`microsoft.com`。
 * 基于[utls](https://github.com/refraction-networking/utls)开发，把你的[代理客户端](https://github.com/3andne/Clash.Meta#restls)伪装成一个普通的浏览器。
 * 使用Restls「剧本」协议，隐藏你的代理行为，破坏"TLS in TLS"等特征。
 
@@ -28,9 +28,9 @@ Restls通过「剧本」机制来破坏这些明显的代理行为特征，下�
 
 ![restls-script](assets/restls-script.png)
 
-If you want to learn more about how `restls-scripts` work and how to design your own, please refer to: [Restls-Script: Hide Your Proxy Traffic Behavior](./Restls-Script:%20Hide%20Your%20Proxy%20Traffic%20Behavior.md)  
+If you want to learn more about how `restls-scripts` work and how to design your own, please refer to: [Restls-Script: Hide Your Proxy Traffic Behavior](./docs/hide_your_traffic_behavior.en.md)  
 
-如果你想了解更多关于「剧本」是如何运作的，以及如何设计自己的「剧本」，请参考：[Restls-Script: 隐藏你的代理行为](./Restls-Script:%20隐藏你的代理行为.md)
+如果你想了解更多关于「剧本」是如何运作的，以及如何设计自己的「剧本」，请参考：[Restls-Script: 隐藏你的代理行为](./docs/a_perfect_impersonation_of_tls.zh_CN.md)
 
 ## Usage
 
